@@ -9,7 +9,7 @@ A small dataset and plot exploring Zendaya's screen time vs. box office performa
 - `euphoria_heatmap.png`: rendered heatmap of IMDb rating by season (rows) and episode (columns)
 - `euphoria_heatmap_compare.R`: R script that produces the IMDb vs. TVmaze small multiples
 - `euphoria_heatmap_compare.png`: rendered small multiples of IMDb and TVmaze ratings by season and episode, on a shared color scale
-- `zendaya_google_trends.csv`: monthly Google Trends interest for the search term "Zendaya" (US, Nov 2021 to Nov 2026, scaled 0 to 100 where 100 is the peak month), downloaded from [Google Trends](https://trends.google.com/trends/) on 2026-11-05
+- `zendaya_google_trends.csv`: monthly Google Trends interest for the search term "Zendaya" (US, Nov 2015 to Nov 2026, scaled 0 to 100 where 100 is the peak month), downloaded from [Google Trends](https://trends.google.com/trends/) on 2026-11-05
 - `euphoria_trends.R`: R script that produces the Euphoria IMDb ratings vs. Google Trends chart
 - `euphoria_trends.png`: rendered chart stacking Google Trends interest for "Zendaya" above Euphoria IMDb ratings by air date. Trends are for Zendaya, not Euphoria, and monthly, so this is a rough comparison
 - `zendaya_scatter.R`: R script that produces the scatter plot

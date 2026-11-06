@@ -7,8 +7,8 @@ trends <- read_csv("zendaya_google_trends.csv", show_col_types = FALSE) |>
   rename(date = Time, interest = Zendaya)
 
 eps <- read_csv("euphoria_episodes.csv", show_col_types = FALSE) |>
-  filter(type == "regular", airdate >= min(trends$date)) |>
-  mutate(season = factor(season, labels = paste("Season", 2:3)))
+  filter(type == "regular") |>
+  mutate(season = factor(season, labels = paste("Season", 1:3)))
 
 # Shaded windows for each season's run
 windows <- eps |>
@@ -28,7 +28,7 @@ shade <- geom_rect(
 p_trends <- ggplot(trends, aes(date, interest)) +
   shade +
   geom_line(color = "steelblue", linewidth = 0.9) +
-  scale_x_date(limits = xlim, date_breaks = "6 months", date_labels = "%b %Y") +
+  scale_x_date(limits = xlim, date_breaks = "1 year", date_labels = "%Y") +
   labs(
     x = NULL,
     y = "Google Trends interest",
@@ -42,8 +42,10 @@ p_imdb <- ggplot(eps, aes(airdate, imdb_rating, color = season)) +
   shade +
   geom_line(linewidth = 0.9) +
   geom_point(size = 2.5) +
-  scale_x_date(limits = xlim, date_breaks = "6 months", date_labels = "%b %Y") +
-  scale_color_manual(values = c("Season 2" = "#C8553D", "Season 3" = "#2F6F73")) +
+  scale_x_date(limits = xlim, date_breaks = "1 year", date_labels = "%Y") +
+  scale_color_manual(
+    values = c("Season 1" = "#D9A441", "Season 2" = "#C8553D", "Season 3" = "#2F6F73")
+  ) +
   labs(
     x = NULL,
     y = "IMDb rating",
