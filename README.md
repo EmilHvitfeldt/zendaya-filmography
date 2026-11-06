@@ -5,6 +5,8 @@ A small dataset and plot exploring Zendaya's screen time vs. box office performa
 - `zendaya_filmography.csv`: film-by-film data (box office, RT scores, screen time)
 - `zendaya_2022_2026.csv`: Zendaya's film and TV titles from 2022 to 2026 with release dates, pulled from the keyless Wikidata SPARQL and TVmaze APIs
 - `euphoria_episodes.csv`: episode-by-episode data for Euphoria (seasons 1 to 3 plus specials) with air dates and times, runtimes, TVmaze ratings, and IMDb ratings and vote counts (IMDb columns are blank for specials)
+- `euphoria_heatmap.R`: R script that produces the Euphoria heatmap
+- `euphoria_heatmap.png`: rendered heatmap of IMDb rating by season (rows) and episode (columns)
 - `zendaya_scatter.R`: R script that produces the scatter plot
 - `zendaya_scatter.png`: rendered chart of screen time (%) vs. worldwide box office
 
