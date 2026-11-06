@@ -1,0 +1,28 @@
+season,episode,type,title,airdate,airtime,airstamp_utc,runtime,tvmaze_rating,imdb_id,imdb_rating,imdb_votes
+1,1,regular,Pilot,2019-06-16,22:00,2019-06-17T02:00:00+00:00,54,7.3,tt8135530,8.0,13119
+1,2,regular,Stuntin' Like My Daddy,2019-06-23,22:00,2019-06-24T02:00:00+00:00,60,8.3,tt8806264,8.0,10754
+1,3,regular,Made You Look,2019-06-30,22:00,2019-07-01T02:00:00+00:00,57,8.3,tt8806262,8.2,10232
+1,4,regular,Shook Ones Pt. II,2019-07-07,22:00,2019-07-08T02:00:00+00:00,55,8.9,tt8806266,9.0,12081
+1,5,regular,'03 Bonnie and Clyde,2019-07-14,22:00,2019-07-15T02:00:00+00:00,53,8.3,tt8806268,8.0,9403
+1,6,regular,The Next Episode,2019-07-21,22:00,2019-07-22T02:00:00+00:00,50,8.4,tt8806274,8.1,9324
+1,7,regular,The Trials and Tribulations of Trying to Pee While Depressed,2019-07-28,22:00,2019-07-29T02:00:00+00:00,59,8.1,tt8806270,8.4,9721
+1,8,regular,And Salt the Earth Behind You,2019-08-04,22:00,2019-08-05T02:00:00+00:00,65,8.2,tt8806272,8.1,10391
+1,,significant_special,Trouble Don't Last Always,2020-12-04,00:00,2020-12-05T05:00:00+00:00,57,7.9,,,
+1,,significant_special,F*ck Anyone Who's Not a Sea Blob,2021-01-22,21:00,2021-01-23T02:00:00+00:00,48,8.5,,,
+2,1,regular,Trying to Get to Heaven Before They Close the Door,2022-01-09,21:00,2022-01-10T02:00:00+00:00,61,7.9,tt14498996,9.0,13886
+2,2,regular,Out of Touch,2022-01-16,21:00,2022-01-17T02:00:00+00:00,57,7.6,tt14510424,7.9,9449
+2,3,regular,Ruminations: Big and Little Bullys,2022-01-23,21:00,2022-01-24T02:00:00+00:00,60,8,tt14509522,8.4,9957
+2,4,regular,"You Who Cannot See, Think of Those Who Can",2022-01-30,21:00,2022-01-31T02:00:00+00:00,62,7.2,tt15319554,8.4,10415
+2,5,regular,Stand Still Like the Hummingbird,2022-02-06,21:00,2022-02-07T02:00:00+00:00,54,8.3,tt15319556,9.4,17360
+2,6,regular,A Thousand Little Trees of Blood,2022-02-13,21:00,2022-02-14T02:00:00+00:00,60,7.6,tt16258198,8.2,8611
+2,7,regular,The Theater and Its Double,2022-02-20,21:00,2022-02-21T02:00:00+00:00,59,7.7,tt16988436,8.8,12232
+2,8,regular,"All My Life, My Heart Has Yearned for a Thing I Cannot Name",2022-02-27,21:00,2022-02-28T02:00:00+00:00,62,7.7,tt16988630,8.3,10302
+3,1,regular,Ándale,2026-04-12,21:00,2026-04-13T01:00:00+00:00,65,7.2,tt17719220,6.6,11459
+3,2,regular,America My Dream,2026-04-19,21:00,2026-04-20T01:00:00+00:00,65,7.5,tt35740467,6.8,8695
+3,3,regular,The Ballad of Paladin,2026-04-26,21:00,2026-04-27T01:00:00+00:00,65,7.6,tt35740468,7.4,9004
+3,4,regular,Kitty Likes to Dance,2026-05-03,21:00,2026-05-04T01:00:00+00:00,65,7.4,tt35740469,7.0,7456
+3,5,regular,This Little Piggy,2026-05-10,21:00,2026-05-11T01:00:00+00:00,65,8,tt35740472,6.1,7665
+3,6,regular,Stand Still and See,2026-05-17,21:00,2026-05-18T01:00:00+00:00,61,7.8,tt35740474,6.3,6432
+3,7,regular,Rain or Shine,2026-05-24,21:00,2026-05-25T01:00:00+00:00,80,8.1,tt35740475,7.7,7944
+3,8,regular,In God We Trust,2026-05-31,21:00,2026-06-01T01:00:00+00:00,94,7.5,tt35740476,7.2,10036
+3,,insignificant_special,Euphoria: A Look Back,2026-07-24,22:00,2026-07-25T02:00:00+00:00,63,6.7,,,
